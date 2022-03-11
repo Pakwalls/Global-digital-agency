@@ -1,0 +1,9 @@
+.slider__subtitle {
+  position: absolute;
+  top: 78%;
+  margin: 0 0 0 98px;
+  font-weight: 900;
+  font-size: 19.6px;
+  line-height: 140%;
+  max-width: 264px;
+}

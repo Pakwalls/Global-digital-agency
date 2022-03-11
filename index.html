@@ -12,25 +12,29 @@
 <body class="root">
   <div class="page">
     <header class="header">
-      <a href="#">
-        <p class="header__logo">Dia</p>
+      <a href="#"  class="header__logo">
+        <p class="text">Dia</p>
       </a>
-      <nav>
-        <a href="#" class="link link__place_header">Home</a>
-        <a href="#" class="link link__place_header">About us</a>
-        <a href="#" class="link link__place_header">Services</a>
-        <a href="#" class="link link__place_header">Work</a>
-        <a href="#" class="link link__place_header">Contact Us</a>
+      <nav class="menu menu_place_header">
+        <a href="#" class="menu__link link__place_header">Home</a>
+        <a href="#" class="menu__link link__place_header">About us</a>
+        <a href="#" class="menu__link link__place_header">Services</a>
+        <a href="#" class="menu__link link__place_header">Work</a>
+        <a href="#" class="menu__link link__place_header">Contact Us</a>
       </nav>
-      <a href="#" class="link link_underlined">Hire us</a>
+      <a href="#" class="header__link">Hire us
+        <div class="header__underline"></div>
+      </a>
     </header>
 
     <main class="content">
       <section class="learn">
-        <h1 class="learn__title">Global digital agency</h1>
-        <p class="learn__subtitle">By the same illusion which lifts the horizon of the sea to the level of the spectator
-           on a hillside, the sable cloud beneath.</p>
-        <a href="#" class="button button_invert">Learn more</a>
+        <div class="learn__title-section">
+          <h1 class="learn__title text">Global digital agency</h1>
+          <p class="learn__subtitle">By the same illusion which lifts the horizon of the sea to the level of the spectator
+            on a hillside, the sable cloud beneath.</p>
+          <a href="#" class="button button_invert">Learn more</a>
+        </div>
         <div class="learn__container"> <!--грид контейнер с тремя столбами-->
           <div class="learn__slider slider">
             <a href="#" class="slider__button"></a>
@@ -242,12 +246,12 @@
 
     <footer class="footer">
       <p class="footer__copyright">Design by @mariuszdaniel</p>
-      <nav>
-        <a href="#" class="link link__place_footer">Home</a>
-        <a href="#" class="link link__place_footer">About us</a>
-        <a href="#" class="link link__place_footer">Services</a>
-        <a href="#" class="link link__place_footer">Work</a>
-        <a href="#" class="link link__place_footer">Contact Us</a>
+      <nav  class="menu menu_place_footer">
+        <a href="#" class="menu__link link__place_footer">Home</a>
+        <a href="#" class="menu__link link__place_footer">About us</a>
+        <a href="#" class="menu__link link__place_footer">Services</a>
+        <a href="#" class="menu__link link__place_footer">Work</a>
+        <a href="#" class="menu__link link__place_footer">Contact Us</a>
       </nav>
     </footer>
   </div>

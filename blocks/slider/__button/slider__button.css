@@ -1,0 +1,11 @@
+.slider__button {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: -81px;
+  background-color: #FCC304;
+  width: 162px;
+  height: 64px;
+  border-radius: 64px;
+  transform: translate(0, -50%);
+}

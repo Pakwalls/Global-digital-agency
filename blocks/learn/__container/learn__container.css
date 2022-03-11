@@ -1,0 +1,6 @@
+.learn__container {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ". image social";
+}

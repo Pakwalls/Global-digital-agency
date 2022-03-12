@@ -1,0 +1,7 @@
+.cards {
+  margin: 0;
+  padding: 160px 0 162px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}

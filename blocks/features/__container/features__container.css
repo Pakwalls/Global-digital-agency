@@ -1,0 +1,5 @@
+.features__container {
+  padding: 198px 0 0 227px;
+  display: flex;
+  flex-direction: column;
+}

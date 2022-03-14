@@ -1,0 +1,5 @@
+.article__back {
+  position: absolute;
+  top: 30px;
+  z-index: -1;
+}

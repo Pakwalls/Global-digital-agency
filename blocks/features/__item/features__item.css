@@ -1,0 +1,9 @@
+.features__item {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.features__item:last-child {
+  padding-bottom: 160px;
+}

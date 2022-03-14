@@ -1,0 +1,5 @@
+.testimonials__articles {
+  padding: 86px 24px 0;
+  display: flex;
+  justify-content: space-between;
+}

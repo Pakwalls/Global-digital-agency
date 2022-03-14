@@ -1,5 +1,5 @@
 .steps {
-  margin: 0 auto;
+  margin: 0 auto -100px auto;
   max-width: 1176px;
   display: flex;
 }

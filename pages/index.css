@@ -38,12 +38,14 @@
 @import url(../blocks/steps/__way/_moved/steps__way_moved.css);
 
 @import url(../blocks/features/features.css);
+@import url(../blocks/features/__container/features__container.css);
 @import url(../blocks/features/__list/features__list.css);
 @import url(../blocks/features/__item/features__item.css);
 @import url(../blocks/features/__logo/features__logo.css);
 @import url(../blocks/features/__paragraph/features__paragraph.css);
 
 @import url(../blocks/testimonials/testimonials.css);
+@import url(../blocks/testimonials/__container/testimonials__container.css);
 @import url(../blocks/testimonials/__articles/testimonials__articles.css);
 @import url(../blocks/testimonials/__article/testimonials__article.css);
 
@@ -68,10 +70,17 @@
 
 @import url(../blocks/article/article.css);
 @import url(../blocks/article/__position/article__position.css);
+@import url(../blocks/article/__position/_painted/article__position_painted_blue.css);
+@import url(../blocks/article/__position/_painted/article__position_painted_red.css);
+@import url(../blocks/article/__position/_painted/article__position_painted_yellow.css);
+@import url(../blocks/article/__back/article__back.css);
 @import url(../blocks/article/__img/article__img.css);
 @import url(../blocks/article/__signature/article__signature.css);
 @import url(../blocks/article/__text/article__text.css);
 @import url(../blocks/article/__underline/article__underline.css);
+@import url(../blocks/article/__underline/_painted/article__underline_painted_blue.css);
+@import url(../blocks/article/__underline/_painted/article__underline_painted_yellow.css);
+@import url(../blocks/article/__underline/_painted/article__underline_painted_red.css);
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_invert/button_invert.css);
@@ -91,8 +100,8 @@
 
 @import url(../blocks/section-logo/section-logo.css);
 @import url(../blocks/section-logo/__title/section-logo__title.css);
+@import url(../blocks/section-logo/__title/_invert/section-logo__title_invert.css);
 @import url(../blocks/section-logo/__img/section-logo__img.css);
-@import url(../blocks/section-logo/__img/_invert/section-logo__img_invert.css);
 
 @import url(../blocks/section-title/section-title.css);
 
@@ -105,3 +114,4 @@
 @import url(../blocks/slider/__button/slider__button.css);
 
 @import url(../blocks/text/text.css);
+@import url(../blocks/margin-bot/margin-bot.css);

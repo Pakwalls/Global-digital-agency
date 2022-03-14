@@ -1,0 +1,6 @@
+.steps__circle {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translate(-50%);
+}

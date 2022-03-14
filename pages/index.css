@@ -35,6 +35,7 @@
 @import url(../blocks/steps/__simbol/steps__simbol.css);
 @import url(../blocks/steps/__ways/steps__ways.css);
 @import url(../blocks/steps/__way/steps__way.css);
+@import url(../blocks/steps/__way/_moved/steps__way_moved.css);
 
 @import url(../blocks/features/features.css);
 @import url(../blocks/features/__list/features__list.css);

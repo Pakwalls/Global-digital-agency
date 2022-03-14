@@ -1,5 +1,10 @@
 .section-paragraph {
   line-height: 150%;
   max-width: 362px;
+  margin-bottom: 0;
+  margin-top: 24px;
+}
+
+.section-paragraph:first-of-type {
   margin-top: 64px;
 }
